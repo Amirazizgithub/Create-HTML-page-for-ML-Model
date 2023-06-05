@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> ML Model </title>
+<style>
+h1 
+{
+color: white;
+text-decoration: bold;
+}
+body 
+{
+background-image: url("ML Future.jpg");
+background-position: cover;
+}
+form
+{
+text-align: center;
+text
+}
+input
+{
+width: 25%;
+}
+input[type=submit]
+{
+background-color: red;
+width: 12%;
+text-decoration: bold;
+color: white;
+}
+select
+{
+width: 25%;
+}
+label
+{
+font-size: 20px;
+display: inline-table;
+width: 150px;
+text-align: right;
+color: white;
+}
+</style>
+</head>
+
+<body>
+<center> <h1> Salary Prediction Model </h1> </center>
+<form> 
+<label for="QL"> Qualification </label>
+<select id="QL", name="QL" >
+	<option value="1"> Bachlor </option>
+	<option value="0"> Master </option>
+	<option value="-1"> Phd </option>
+</select>
+<br> </br>
+
+<label for='Age'> Age </label>
+<input type='int' id='Age', name='age', required="required", placeholder="write your age..." > </input>
+<br> </br>
+
+<label for='YOE'> Year of Exprience </label>
+<input type='float' id='YOE', name='YOE', required="required", placeholder="write your total exprince..." > </input>
+<br> </br>
+
+<label> </label>
+<input id="submit" type="submit" value="Predict" > </input>
+
+</form>
+</body>
+</html>
